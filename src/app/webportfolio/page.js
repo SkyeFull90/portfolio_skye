@@ -12,7 +12,7 @@ export default function page() {
                 <button className="btn btn-primary">view the GitHub for more projects</button>
               </div>
           </div>
-        </div>
+      </div>
     </div>
   )
 }
