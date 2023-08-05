@@ -17,7 +17,7 @@ header{
   padding: 10px;
 }
 .intro p{
-  @apply shadow-lg shadow-cyan-500/70 bg-base-300 opacity-50 rounded;
+  @apply shadow-lg shadow-cyan-500/70 bg-base-300 opacity-50 rounded py-1 lg:text-xl;
 }
 
 a, a:link{

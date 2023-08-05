@@ -1,4 +1,4 @@
-import './globals.css'
+ import './globals.css'
 import { Raleway } from 'next/font/google'
 
 const inter = Raleway({weight: '200', subsets: ['latin']})
@@ -18,9 +18,9 @@ export default function RootLayout({ children }) {
           <div className="drawer-content flex flex-col">
             {/* Navbar */}
             <div className="w-full navbar bg-base-300 opacity-80 text-primary-content">
-              <div className="flex-none lg:hidden pr-64">
+              <div className="flex-none lg:hidden px-64">
                 <label htmlFor="drawer-3" className="btn btn-square btn-accent">
-                  <img src={'/images.jpeg'}  alt={'logo'}/>
+                  <img src={'/images.jpeg'}  alt={'logo'} />
                 </label>
               </div>
               <div className="flex-1 px-2 mx-2">
